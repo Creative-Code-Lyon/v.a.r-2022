@@ -1,6 +1,5 @@
 <script>
     export let showArtist;
-    export let isOpenModal;
 
 </script>
 <div class="overlay"  on:click={() => showArtist = ""}>
