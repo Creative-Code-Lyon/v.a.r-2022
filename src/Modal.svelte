@@ -5,14 +5,11 @@
 <div class="overlay"  on:click={() => showArtist = ""}>
     <div class="modal">
         <div class="cover" style="background-image:url({showArtist.imgUrl})">
-            <h3>{showArtist.name}</h3> 
-            <h4>{showArtist.nomination}</h4>
         </div>
         <p>{showArtist.bio}</p>
         <ul>
             {#each showArtist.social as network}
                 <li><a href="{network.url}">{network.name}</a></li>
-        
             {/each}
         </ul>
 

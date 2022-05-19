@@ -5,19 +5,26 @@
 	let showArtist = ""
 </script>
 
+<svelte:head>
+	<title>V.A.R 22</title>
+	<html lang="en" />
+	<link rel="icon" href="https://i.imgur.com/RCo4eDs.png" />
+</svelte:head>
+
 <main>
-	<h1>V.A.R 2022 </h1>
+	<h1>V.A.R 22 <br> 11 JUIN 2022</h1>
 
 	<h2>A Propos</h2>
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod at sem id elementum. Morbi mattis, erat eget ullamcorper consectetur, ipsum ex vulputate sem, tristique suscipit sem arcu sed leo. Donec imperdiet mattis augue. Sed ipsum dui, laoreet vel sagittis et, hendrerit non ligula. Maecenas iaculis eros id urna sollicitudin,
+		A l’occasion d’une après midi le 11 juin, découvrez le parcours de différent.e.s artistes numériques/makers lyonnais.e.s.
+		<a href="https://fb.me/e/2jJ88Zrl3"><h3>Event Facebook</h3></a>
 	</p>
+
 	<h2>Programmation</h2>
 	<ul class="artists">
 	{#each artists as artist}
 		<li on:click={() => showArtist = artist} style="background-image:url({artist.imgUrl})">
-			<h3>{artist.name}</h3> 
-			<h4>{artist.nomination}</h4>
+			
 		</li>
 	{/each}
 	{#if showArtist}
@@ -56,6 +63,7 @@
 	:global(h3) {
 		margin: 0;
 		font-size: 40px;
+		color: black;
 	}
 	:global(h4) {
 		font-size: 35px;
@@ -83,7 +91,6 @@
 		text-align: left;
 		padding: 10px;
 		margin: 5px;
-		box-shadow: 0 0 200px rgba(0,0,0,0.5) inset;
 	}
 	li:hover {
 		opacity: 0.5;
