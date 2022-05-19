@@ -43,6 +43,7 @@ const app = new App({
 				bio: "Emiliano Germain est musicien et artiste intervenant auprès du jeune public. membre du Séquenceur et de Playtronica, sont travail d'intervenant se centre sur les nouvelles technologies comme vectrices d'initiation à la pratique musicale. Également DJ, il est membre du collectif lyonnais Bon Public et se produit régulièrement sur scène avec ses divers projets.",
 				social : [
 					{name: "SITE", url:"https://www.grame.fr/artistes-chercheurs-partenaires/emiliano-germain"},
+					{name: "SC", url:"https://soundcloud.com/keithlimbomusic"},
 				]
 			},
 			{
@@ -52,6 +53,7 @@ const app = new App({
 				bio: "Fascinée par les images et les salles obscures depuis le plus jeune âge, Pauline Millet a fait ses armes en tant que VJ aux côtés du collectif lyonnais l’Octopus depuis 2017, en parallèle de ses études dans l’audiovisuel et le cinéma. Ainsi, elle a pu performer dans de nombreuses SMAC de France, des parcs d’expositions, dans un Planétarium … Grâce notamment à l'association AADN qui oeuvre pour la promotion des arts numériques, elle transmet sa passion par des ateliers depuis maintenant 2 ans, auprès d’ados et d’adultes.",
 				social : [
 					{name: "instagram", url:"https://www.instagram.com/paul_icorne/"},
+					{name: "vimeo", url:"https://vimeo.com/392215527"},
 				]
 			},
 			{
@@ -60,6 +62,7 @@ const app = new App({
 				imgUrl: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7fcff6b4-c849-4e68-aa21-2e69160eb859/Romain.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220518T134543Z&X-Amz-Expires=86400&X-Amz-Signature=c1d83afdcd38ca7e9e57979c2e346aa2e88f77e6a90b2371985434c3fc25a481&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Romain.png%22&x-id=GetObject',
 				bio: "Acqtäz fait du bruit, pour les gens qui aiment le bruit",
 				social : [
+					{name: "", url:"https://acqz.bandcamp.com/"},
 					{name: "site", url:"https://www.grame.fr/artistes-chercheurs-partenaires/romain-darracq"},
 					{name: "facebook", url:"https://www.facebook.com/acqtaz"}
 				]
