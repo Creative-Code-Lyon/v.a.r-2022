@@ -1,8 +1,9 @@
 <script>
 	import Modal from "./Modal.svelte"
 	export let artists;
+	export let team;
 
-	let showArtist = ""
+	let personDetails = ""
 </script>
 
 <svelte:head>
@@ -22,16 +23,27 @@
 
 	<h2>Programmation</h2>
 	<ul class="artists">
-	{#each artists as artist}
-		<li on:click={() => showArtist = artist} style="background-image:url({artist.imgUrl})">
-			
-		</li>
-	{/each}
-	{#if showArtist}
-	<Modal bind:showArtist={showArtist}>
-	</Modal>
-	{/if}
-</ul>
+		{#each artists as artist}
+			<li on:click={() => personDetails = artist} style="background-image:url({artist.imgUrl})">
+			</li>
+		{/each}
+		{#if personDetails}
+			<Modal bind:personDetails={personDetails}>
+			</Modal>o
+		{/if}
+	</ul>
+
+	<h2>Organisation</h2>
+	<ul class="team">
+		{#each team as teammate}
+			<li on:click={() => personDetails = teammate} style="background-image:url({teammate.imgUrl})">
+			</li>
+		{/each}
+		{#if personDetails}
+			<Modal bind:personDetails={personDetails}>
+			</Modal>
+		{/if}
+	</ul>
 </main>
 
 <style>
@@ -78,6 +90,10 @@
 	}
 
 	.artists {
+		display : flex;
+		flex-wrap: wrap;
+	}
+	.team {
 		display : flex;
 		flex-wrap: wrap;
 	}

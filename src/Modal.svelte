@@ -1,14 +1,14 @@
 <script>
-    export let showArtist;
+    export let personDetails;
 
 </script>
-<div class="overlay"  on:click={() => showArtist = ""}>
+<div class="overlay"  on:click={() => personDetails = ""}>
     <div class="modal">
-        <div class="cover" style="background-image:url({showArtist.imgUrl})">
+        <div class="cover" style="background-image:url({personDetails.imgUrl})">
         </div>
-        <p>{showArtist.bio}</p>
+        <p>{personDetails.bio}</p>
         <ul>
-            {#each showArtist.social as network}
+            {#each personDetails.social as network}
                 <li><a href="{network.url}">{network.name}</a></li>
             {/each}
         </ul>

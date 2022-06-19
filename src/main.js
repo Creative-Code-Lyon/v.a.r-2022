@@ -104,6 +104,30 @@ const app = new App({
 					{name:"instagram", url:"https://www.instagram.com/wsk_vj/"}
 				]
 			}
+		],
+		team:  [
+			{
+				name : 'Yassin Siouda', 
+				nomination: "Caffeined Hacker",
+				imgUrl: 'https://i.imgur.com/ysuvk79.jpg',
+				bio: "yassin Siouda is a digital caffeined hacker who has been making a name for herself in the hacking community for her creative and innovative approach to hacking. She has been involved in a number of high-profile hacks, including the now infamous Starbucks hack, which saw her stealing over $100,000 worth of Starbucks gift cards.\
+					yassin is a self-taught hacker who has been honing her skills for years. She is constantly looking for new ways to exploit digital systems and is always one step ahead of the security teams trying to stop her. Her creative approach to hacking has made her a formidable opponent for anyone who tries to stand in her way.",
+				social : [
+					{name: "Site", url:"https://yassin.siouda.com/"},
+					{name: "instagram", url:"https://www.instagram.com/makio135/"}
+				]
+			},
+			{
+				name : 'Marc Charton', 
+				nomination: "Creative Thinker",
+				imgUrl: 'https://i.imgur.com/Ek8bBPv.jpg',
+				bio: "Marc Charton is a creative thinker and music enthusiast from France. He has a passion for music and creative coding, and is a member of several musical collectives and hacking groups. He is also active in the makers community, and is always looking for new and innovative ways to create and share his work with others.",
+				social : [
+					{name: "Site", url:"https://marc-charton.fr"},
+					{name: "facebook", url:"https://www.facebook.com/narcomarch"},
+					{name: "github", url:"https://github.com/marccharton"},
+				]
+			},
 		]
 	}
 });
