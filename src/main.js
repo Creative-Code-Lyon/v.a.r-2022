@@ -110,11 +110,11 @@ const app = new App({
 				name : 'Yassin Siouda', 
 				nomination: "Caffeined Hacker",
 				imgUrl: 'https://i.imgur.com/ysuvk79.jpg',
-				bio: "yassin Siouda is a digital caffeined hacker who has been making a name for herself in the hacking community for her creative and innovative approach to hacking. She has been involved in a number of high-profile hacks, including the now infamous Starbucks hack, which saw her stealing over $100,000 worth of Starbucks gift cards.\
-					yassin is a self-taught hacker who has been honing her skills for years. She is constantly looking for new ways to exploit digital systems and is always one step ahead of the security teams trying to stop her. Her creative approach to hacking has made her a formidable opponent for anyone who tries to stand in her way.",
+				bio: "Yassin Siouda est un artiste polyvalent qui s'implique dans diverses activités autour des arts numériques. Musicien électronique, développeur et VJ. Co-fondateur de Bon Public, un collectif de DJs et producteurs, de TheShowMustGoLive, une plateforme d'accompagnement des artistes au streaming, et de Localhost, un lieu dédié au partage de pratiques autour des arts numériques, du mouvement maker et du creative coding.\
+				Ses travaux interrogent les relations entre les individus et la technologie, et explorent les possibilités de l'intelligence artificielle appliquée au design et aux pratiques artistiques.",
 				social : [
 					{name: "Site", url:"https://yassin.siouda.com/"},
-					{name: "instagram", url:"https://www.instagram.com/makio135/"}
+					{name: "instagram", url:"https://www.instagram.com/yassinsiouda/"}
 				]
 			},
 			{
